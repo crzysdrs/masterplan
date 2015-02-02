@@ -102,6 +102,7 @@ for p in files:
     t = re.sub("&amp;amp;", "&amp;", t)
     t = re.sub("&amp;", "and", t)
     t = re.sub("CS 510:? Advanced", "CS 510 Top: Advanced", t)
+    t = re.sub("584/684", "584", t)
     t = re.sub("410/510", "510 Top:", t)
     t = re.sub("Advanced", "Adv.", t)
     t = re.sub("Introduction", "Intro.", t)
@@ -154,40 +155,43 @@ def get_reqs(taken, data, cname):
 data["CS 510 Top: Adv. Programming Language Implementation"] = \
    {'title':'Adv. Programming Language Implementation', 'reqs':[], 'credits':3}
 
+data["CS 510 Top: Languages and Low-Level"] = \
+   {'title':'Languages and Low-Level"', 'reqs':[], 'credits':3}
+
 done = [
     #TakenClass(457, data, term="Winter", year=2012, grade="A", preadmit=True),
-        TakenClass(558, data, term="Fall", year=2012, grade="A"),
-        TakenClass(533, data, term="Winter", year=2013, grade="A"),
-        TakenClass(581, data, term="Spring", year=2013, grade="A"),
-        TakenClass(547, data, term="Fall", year=2013, grade="A"),
-        TakenClass(553, data, term="Winter", year=2014, grade="A"),
-        TakenClass(510, data, title="Top: Adv. Programming Language Implementation", term="Spring", year=2014, grade="A"),
-        TakenClass(591, data, term="Fall", year=2014),
-        ]
+    TakenClass(558, data, term="Fall", year=2012, grade="A"),
+    TakenClass(533, data, term="Winter", year=2013, grade="A"),
+    TakenClass(581, data, term="Spring", year=2013, grade="A"),
+    TakenClass(547, data, term="Fall", year=2013, grade="A"),
+    TakenClass(553, data, term="Winter", year=2014, grade="A"),
+    TakenClass(510, data, title="Top: Adv. Programming Language Implementation", term="Spring", year=2014, grade="A"),
+    TakenClass(591, data, term="Fall", year=2014, grade="A"),
+    TakenClass(510, data, title="Top: Intro. to Visual Computing", term="Winter", year=2015),
+]
 
-need=['CS 584', #Algorithms analysis, Requested by gord (probably tough as hell)
-      'CS 580', #Randomized Algorithms and Probabilistic Analysis #Recommended by MPJ
-      'CS 585', #Cryptography, also requested by gord.
-      'CS 591', #Intro to Computer Security
-      'CS 515', #Parallel Programming (NOTE: FORTRAN?!)
-      'CS 550', # Parallel Algorithms'
-      'CS 510 Top: Adv. Programming Language Implementation', #Replaces Modern Language Processors (this is probably what gordon wanted
-      'CS 510 Top: Adv. Programming',
-      'CS 572', #Operating System Internals, Gord Swap #'CS 510 Top: Adv. Cryptography',
-      'CS 510 Top: Intro. to Visual Computing'
-      ]
+need = [
+    'CS 584', #Algorithms analysis, Requested by gord (probably tough as hell)
+    'CS 515', #Parallel Programming (NOTE: FORTRAN?!)
+    'CS 550', # Parallel Algorithms'
+    'CS 510 Top: Languages and Low-Level',
+    'CS 592',
+    'CS 572', #Operating System Internals, Gord Swap #'CS 510 Top: Adv. Cryptography',
+    'CS 510 Top: Multicore Computing',
+]
 
 #mth 261 is intro to linear algebra
 #stats 451 is applied statistics for engineers
-taken_pre_reqs = ['CS 333', #Basic OSs, did 533, should be good
-       'CS 202', #Computer Systems Programming, should be good
-       'CS 106', #Computing Fundamentals
-       'CS 161', #Intro to Programming, should be good
-       'CS 162', #Intro to Computer Science, should be good
-       'CS 300', #Elements of Software Engineering
-       'CS 310', 'CS 340', # OOP Dependences that no longer exist?
-       'CS 350', 'CS 250', 'CS 251', 'CS 321', 'CS 322', 'CS 311',
-       'MTH 261', #linear algebra
+taken_pre_reqs = [
+    'CS 333', #Basic OSs, did 533, should be good
+    'CS 202', #Computer Systems Programming, should be good
+    'CS 106', #Computing Fundamentals
+    'CS 161', #Intro to Programming, should be good
+    'CS 162', #Intro to Computer Science, should be good
+    'CS 300', #Elements of Software Engineering
+    'CS 310', 'CS 340', # OOP Dependences that no longer exist?
+    'CS 350', 'CS 250', 'CS 251', 'CS 321', 'CS 322', 'CS 311',
+    'MTH 261', #linear algebra
 ]
 
 taken = list(set([d.key for d in done] + need + taken_pre_reqs))

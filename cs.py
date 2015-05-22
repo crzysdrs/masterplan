@@ -104,9 +104,37 @@ if __name__ == "__main__":
 
     print "Credits %d/%d" % (credits, school['required_credits'])
 
+    def plan_sort(a, b):
+        a_year = 'year' in a
+        b_year = 'year' in b
+        both_year = a_year and b_year
+        some_year = a_year or b_year
+        if both_year:
+            pass
+        elif not some_year:
+            return 0
+        elif a_year:
+            return -1
+        elif b_year:
+            return 1
+        
+        year_cmp = a['year'] - b['year']
+        if year_cmp != 0:
+            return year_cmp
+
+        terms = {
+            'Winter':0,
+            'Spring':1,
+            'Summer':2,
+            'Fall':3
+        }
+        term_cmp = terms[a['term']] - terms[b['term']]
+        return term_cmp
+        
     if args.showplan:
+        sorted_plan = sorted(plan, cmp=plan_sort)
         print "--------- Plan ----------"
-        for c in plan:
+        for c in sorted_plan:
             term = "<Term>"
             if 'term' in c:
                 term = c['term']

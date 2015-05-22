@@ -69,7 +69,9 @@
     }, 
     {
         "dept": "CS", 
-        "num": 550
+        "num":594,
+        "term":"Fall",
+        "year":2015
     }, 
     {
         "dept": "CS", 
@@ -86,6 +88,8 @@
     {
         "dept": "CS", 
         "num": 510,
-        "title": "Multicore Computing"
+        "title": "Accelerated Computing with GPUs, APUs, and FPGAs",
+        "term":"Summer",
+        "year":2015
     }
 ]

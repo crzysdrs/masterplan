@@ -272,7 +272,7 @@
         {
             "dept": "CS", 
             "num": 510, 
-            "title": "General Purpose GPU Computing", 
+            "title": "Accelerated Computing with GPUs, APUs, and FPGAs",
             "credits": 3
         }, 
         {

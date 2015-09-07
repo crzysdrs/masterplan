@@ -61,7 +61,8 @@
         "num": 510,
         "title": "Languages & Low-Level Programming",
         "term": "Spring",
-        "year": 2015
+        "year": 2015,
+        "grade":"A"
     }, 
     {
         "dept": "CS", 
@@ -90,6 +91,7 @@
         "num": 510,
         "title": "Accelerated Computing with GPUs, APUs, and FPGAs",
         "term":"Summer",
-        "year":2015
+        "year":2015,
+        "grade":"A"
     }
 ]

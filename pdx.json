@@ -33,7 +33,7 @@
             "optional":[
                 {"dept":"CS", "num":542},
                 {"dept":"CS", "num":543},
-                {"dept":"CS", "num":546} 
+                {"dept":"CS", "num":546}
             ]
         },
         {
@@ -58,7 +58,7 @@
         {
             "name":"sec",
             "req":[
-                {"dept":"CS", "num":591},             
+                {"dept":"CS", "num":591},
                 {"dept":"CS", "num":585}
             ],
             "choose":1,
@@ -95,7 +95,7 @@
         },
         {
             "name":"sys",
-            "req":[ 
+            "req":[
                 {"dept":"CS", "num":533},
                 {"dept":"CS", "num":594}
             ],
@@ -112,7 +112,7 @@
         },
         {
             "name":"theory",
-            "req":[ 
+            "req":[
                 {"dept":"CS", "num":581},
                 {"dept":"CS", "num":584}
             ],
@@ -126,670 +126,676 @@
     ],
     "classes":[
         {
-            "dept": "CS", 
-            "num": 504, 
-            "title": "Cooperative Education/Internship", 
+            "dept": "CS",
+            "num": 504,
+            "title": "Cooperative Education/Internship",
             "credits": 0
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 507, 
-            "title": "Category Theory Seminar", 
+            "dept": "CS",
+            "num": 507,
+            "title": "Category Theory Seminar",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Adv Open Source Software Eng", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Adv Open Source Software Eng",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Adv. Counting, Probability and Computing", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Adv. Counting, Probability and Computing",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Adv. Cryptography", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Adv. Cryptography",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Adv. Multimedia Networking", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Adv. Multimedia Networking",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Adv. Programming", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Adv. Programming",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Adv. Programming Language Implementation", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Adv. Programming Language Implementation",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Adv. Software Engineering", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Adv. Software Engineering",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Adv. Topics Software Engineering", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Adv. Topics Software Engineering",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Adv. Topics in Networking", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Adv. Topics in Networking",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Algorithms For Parallel Computation", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Algorithms For Parallel Computation",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Automated Deduction", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Automated Deduction",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Client and Server Side Applications For The Web", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Client and Server Side Applications For The Web",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Computational Photography", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Computational Photography",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Computer Performance Analysis", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Computer Performance Analysis",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Concurrent Systems", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Concurrent Systems",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Data Management in the Cloud", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Data Management in the Cloud",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Data Streams", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Data Streams",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Dependent Type Programming", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Dependent Type Programming",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Distributed Computing", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Distributed Computing",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Foundations of Database Systems", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Foundations of Database Systems",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Functional Logic Programming", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Functional Logic Programming",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Fundamentals of Staged Computation", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Fundamentals of Staged Computation",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
+            "dept": "CS",
+            "num": 510,
             "title": "Accelerated Computing with GPUs, APUs, and FPGAs",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title":" Green Computing and Communications", 
+            "dept": "CS",
+            "num": 510,
+            "title":" Green Computing and Communications",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "In Software Eng. New Ideas in Testing Theory", 
+            "dept": "CS",
+            "num": 510,
+            "title": "In Software Eng. New Ideas in Testing Theory",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Information Integration", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Information Integration",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Information Security Assurance", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Information Security Assurance",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Information Theory", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Information Theory",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Intro. to Multimedia Networking", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Intro. to Multimedia Networking",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Intro. to Performance Measurement, Modeling and Analysis", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Intro. to Performance Measurement, Modeling and Analysis",
             "credits": 410
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Intro. to Visual Computing", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Intro. to Visual Computing",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Intro. to Wireless Networking", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Intro. to Wireless Networking",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Languages and Low-Level Programming", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Languages and Low-Level Programming",
             "credits": 4
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Languages and Low-Level\"", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Languages and Low-Level\"",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Machine Learning Practicum", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Machine Learning Practicum",
             "credits": 1
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Malicious Code and Forensics", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Malicious Code and Forensics",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Manipulating Data Using XML", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Manipulating Data Using XML",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Mastery in Programming", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Mastery in Programming",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Mathematical Logic via Foundational Algorithms", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Mathematical Logic via Foundational Algorithms",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Mobile Computing", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Mobile Computing",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Mobile Health", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Mobile Health",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Multi Media Networking", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Multi Media Networking",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Multicore", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Multicore",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Multicore Computing", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Multicore Computing",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Multicore Computing: Practicum", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Multicore Computing: Practicum",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Nonstandard Computation", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Nonstandard Computation",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Open Source Software Development in the Unix Environment", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Open Source Software Development in the Unix Environment",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Performance Analysis of Heterogeneous Multi-Core Systems", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Performance Analysis of Heterogeneous Multi-Core Systems",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Principles of Database Systems", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Principles of Database Systems",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Programming the Web", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Programming the Web",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Secure Programming with SSL/TLS", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Secure Programming with SSL/TLS",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Security and Programming", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Security and Programming",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Spoken Language Interfaces", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Spoken Language Interfaces",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Topics in Wide Area Wireless Networks", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Topics in Wide Area Wireless Networks",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Using XML and Related Languages", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Using XML and Related Languages",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Wireless Internet Protocols and Standards", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Wireless Internet Protocols and Standards",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 510, 
-            "title": "Wireless Networking Concepts", 
+            "dept": "CS",
+            "num": 510,
+            "title": "Wireless Networking Concepts",
             "credits": 3
         },
         {
             "dept":"CS",
-            "num":510, 
+            "num":510,
             "title":"Languages & Low-Level Programming",
             "credits": 3
         },
         {
-            "dept": "CS", 
-            "num": 515, 
-            "title": "Parallel Programming", 
+            "dept":"CS",
+            "num":510,
+            "title":"Network Security",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 520, 
-            "title": "Object Oriented Programming", 
+            "dept": "CS",
+            "num": 515,
+            "title": "Parallel Programming",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 533, 
-            "title": "Concepts of Operating Systems", 
+            "dept": "CS",
+            "num": 520,
+            "title": "Object Oriented Programming",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 538, 
-            "title": "Computer Architecture", 
+            "dept": "CS",
+            "num": 533,
+            "title": "Concepts of Operating Systems",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 541, 
-            "title": "Artificial Intelligence", 
+            "dept": "CS",
+            "num": 538,
+            "title": "Computer Architecture",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 542, 
-            "title": "Adv. Artificial Intelligence: Combinatorial Games", 
+            "dept": "CS",
+            "num": 541,
+            "title": "Artificial Intelligence",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 543, 
-            "title": "Adv. Artificial Intelligence: Combinatorial Search", 
+            "dept": "CS",
+            "num": 542,
+            "title": "Adv. Artificial Intelligence: Combinatorial Games",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 545, 
-            "title": "Machine Learning", 
+            "dept": "CS",
+            "num": 543,
+            "title": "Adv. Artificial Intelligence: Combinatorial Search",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 546, 
-            "title": "Adv. Topics in Machine Learning", 
+            "dept": "CS",
+            "num": 545,
+            "title": "Machine Learning",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 547, 
-            "title": "Computer Graphics", 
+            "dept": "CS",
+            "num": 546,
+            "title": "Adv. Topics in Machine Learning",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 548, 
-            "title": "Computer Graphics II", 
+            "dept": "CS",
+            "num": 547,
+            "title": "Computer Graphics",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 549, 
-            "title": "Computational Geometry", 
+            "dept": "CS",
+            "num": 548,
+            "title": "Computer Graphics II",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 550, 
-            "title": "Parallel Algorithms", 
+            "dept": "CS",
+            "num": 549,
+            "title": "Computational Geometry",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 551, 
-            "title": "Numerical Computation", 
+            "dept": "CS",
+            "num": 550,
+            "title": "Parallel Algorithms",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 552, 
-            "title": "Building Software Systems With Components", 
+            "dept": "CS",
+            "num": 551,
+            "title": "Numerical Computation",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 553, 
-            "title": "Design Patterns", 
+            "dept": "CS",
+            "num": 552,
+            "title": "Building Software Systems With Components",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 554, 
-            "title": "Software Engineering", 
+            "dept": "CS",
+            "num": 553,
+            "title": "Design Patterns",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 555, 
-            "title": "Software Specification and Verification", 
+            "dept": "CS",
+            "num": 554,
+            "title": "Software Engineering",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 556, 
-            "title": "Software Implementation and Testing", 
+            "dept": "CS",
+            "num": 555,
+            "title": "Software Specification and Verification",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 557, 
-            "title": "Functional Languages", 
+            "dept": "CS",
+            "num": 556,
+            "title": "Software Implementation and Testing",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 558, 
-            "title": "Programming Languages", 
+            "dept": "CS",
+            "num": 557,
+            "title": "Functional Languages",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 559, 
-            "title": "Software Measurement and Models", 
+            "dept": "CS",
+            "num": 558,
+            "title": "Programming Languages",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 560, 
-            "title": "Human-Computer Interaction", 
+            "dept": "CS",
+            "num": 559,
+            "title": "Software Measurement and Models",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 565, 
-            "title": "Construction and Analysis of Web-Based Applicaitons", 
+            "dept": "CS",
+            "num": 560,
+            "title": "Human-Computer Interaction",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 567, 
-            "title": "The Wireless Web", 
+            "dept": "CS",
+            "num": 565,
+            "title": "Construction and Analysis of Web-Based Applicaitons",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 572, 
-            "title": "Operating Systems Internals", 
+            "dept": "CS",
+            "num": 567,
+            "title": "The Wireless Web",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 573, 
-            "title": "Computer Communications", 
+            "dept": "CS",
+            "num": 572,
+            "title": "Operating Systems Internals",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 575, 
-            "title": "Computer System Analysis", 
+            "dept": "CS",
+            "num": 573,
+            "title": "Computer Communications",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 576, 
-            "title": "Computer Security", 
+            "dept": "CS",
+            "num": 575,
+            "title": "Computer System Analysis",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 577, 
-            "title": "Modern Language Processors", 
+            "dept": "CS",
+            "num": 576,
+            "title": "Computer Security",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 578, 
-            "title": "Program Language Semantics", 
+            "dept": "CS",
+            "num": 577,
+            "title": "Modern Language Processors",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 579, 
-            "title": "Formal Verification of Hardware/Software", 
+            "dept": "CS",
+            "num": 578,
+            "title": "Program Language Semantics",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 580, 
-            "title": "Randomized Algorithms and Probabilistic Analysis", 
+            "dept": "CS",
+            "num": 579,
+            "title": "Formal Verification of Hardware/Software",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 581, 
-            "title": "Theory of Computation", 
+            "dept": "CS",
+            "num": 580,
+            "title": "Randomized Algorithms and Probabilistic Analysis",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 582, 
-            "title": "Theory of Computation: Adv. Topics", 
+            "dept": "CS",
+            "num": 581,
+            "title": "Theory of Computation",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 583, 
-            "title": "Automata and Formal Languages", 
+            "dept": "CS",
+            "num": 582,
+            "title": "Theory of Computation: Adv. Topics",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 584, 
-            "title": "Algorithm Design and Analysis", 
+            "dept": "CS",
+            "num": 583,
+            "title": "Automata and Formal Languages",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 585, 
-            "title": "Cryptography", 
+            "dept": "CS",
+            "num": 584,
+            "title": "Algorithm Design and Analysis",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 586, 
-            "title": "Intro. to Database Management Systems", 
+            "dept": "CS",
+            "num": 585,
+            "title": "Cryptography",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 587, 
-            "title": "Relational Database Management Systems", 
+            "dept": "CS",
+            "num": 586,
+            "title": "Intro. to Database Management Systems",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 588, 
-            "title": "Distributed Database Systems", 
+            "dept": "CS",
+            "num": 587,
+            "title": "Relational Database Management Systems",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 589, 
-            "title": "Principles of Database Systems", 
+            "dept": "CS",
+            "num": 588,
+            "title": "Distributed Database Systems",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 591, 
-            "title": "Intro. to Computer Security", 
+            "dept": "CS",
+            "num": 589,
+            "title": "Principles of Database Systems",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 592, 
-            "title": "Malware", 
+            "dept": "CS",
+            "num": 591,
+            "title": "Intro. to Computer Security",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 593, 
-            "title": "Digital Forensics", 
+            "dept": "CS",
+            "num": 592,
+            "title": "Malware",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 594, 
-            "title": "Internetworking Protocols", 
+            "dept": "CS",
+            "num": 593,
+            "title": "Digital Forensics",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 595, 
-            "title": "Network Routing", 
+            "dept": "CS",
+            "num": 594,
+            "title": "Internetworking Protocols",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 596, 
-            "title": "Network Management and Security", 
+            "dept": "CS",
+            "num": 595,
+            "title": "Network Routing",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 597, 
-            "title": "Sensor Networks", 
+            "dept": "CS",
+            "num": 596,
+            "title": "Network Management and Security",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 610, 
-            "title": "Computational Photography", 
+            "dept": "CS",
+            "num": 597,
+            "title": "Sensor Networks",
             "credits": 3
-        }, 
+        },
         {
-            "dept": "CS", 
-            "num": 669, 
-            "title": "Scholarship Skills", 
+            "dept": "CS",
+            "num": 610,
+            "title": "Computational Photography",
+            "credits": 3
+        },
+        {
+            "dept": "CS",
+            "num": 669,
+            "title": "Scholarship Skills",
             "credits": 3
         }
-    ]    
+    ]
 }

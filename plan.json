@@ -1,97 +1,102 @@
 [
     {
-        "dept": "CS", 
-        "num": 558, 
-        "term": "Fall", 
-        "year": 2012, 
+        "dept": "CS",
+        "num": 558,
+        "term": "Fall",
+        "year": 2012,
         "grade": "A"
-    }, 
-    {
-        "dept": "CS", 
-        "num": 533, 
-        "term": "Winter", 
-        "year": 2013, 
-        "grade": "A"
-    }, 
-    {
-        "dept": "CS", 
-        "num": 581, 
-        "term": "Spring", 
-        "year": 2013, 
-        "grade": "A"
-    }, 
-    {
-        "dept": "CS", 
-        "num": 547, 
-        "term": "Fall", 
-        "year": 2013, 
-        "grade": "A"
-    }, 
-    {
-        "dept": "CS", 
-        "num": 553, 
-        "term": "Winter", 
-        "year": 2014, 
-        "grade": "A"
-    }, 
-    {
-        "dept": "CS", 
-        "num": 510, 
-        "title": "Adv. Programming Language Implementation", 
-        "term": "Spring", 
-        "year": 2014, 
-        "grade": "A"
-    }, 
-    {
-        "dept": "CS", 
-        "num": 591, 
-        "term": "Fall", 
-        "year": 2014, 
-        "grade": "A"
-    }, 
-    {
-        "dept": "CS", 
-        "num": 510, 
-        "title": "Intro. to Visual Computing", 
-        "term": "Winter", 
-        "year": 2015
     },
     {
-        "dept": "CS", 
+        "dept": "CS",
+        "num": 533,
+        "term": "Winter",
+        "year": 2013,
+        "grade": "A"
+    },
+    {
+        "dept": "CS",
+        "num": 581,
+        "term": "Spring",
+        "year": 2013,
+        "grade": "A"
+    },
+    {
+        "dept": "CS",
+        "num": 547,
+        "term": "Fall",
+        "year": 2013,
+        "grade": "A"
+    },
+    {
+        "dept": "CS",
+        "num": 553,
+        "term": "Winter",
+        "year": 2014,
+        "grade": "A"
+    },
+    {
+        "dept": "CS",
+        "num": 510,
+        "title": "Adv. Programming Language Implementation",
+        "term": "Spring",
+        "year": 2014,
+        "grade": "A"
+    },
+    {
+        "dept": "CS",
+        "num": 591,
+        "term": "Fall",
+        "year": 2014,
+        "grade": "A"
+    },
+    {
+        "dept": "CS",
+        "num": 510,
+        "title": "Intro. to Visual Computing",
+        "term": "Winter",
+        "year": 2015,
+        "grade": "A"
+    },
+    {
+        "dept": "CS",
         "num": 510,
         "title": "Languages & Low-Level Programming",
         "term": "Spring",
         "year": 2015,
         "grade":"A"
-    }, 
+    },
     {
-        "dept": "CS", 
-        "num": 572
-    }, 
-    {
-        "dept": "CS", 
-        "num":594,
-        "term":"Fall",
-        "year":2015
-    }, 
-    {
-        "dept": "CS", 
-        "num": 515
-    }, 
-    {
-        "dept": "CS", 
-        "num": 592
-    }, 
-    {
-        "dept": "CS", 
-        "num": 584
-    }, 
-    {
-        "dept": "CS", 
+        "dept": "CS",
         "num": 510,
         "title": "Accelerated Computing with GPUs, APUs, and FPGAs",
         "term":"Summer",
         "year":2015,
         "grade":"A"
+    },
+    {
+        "dept": "CS",
+        "num":594,
+        "term":"Fall",
+        "year":2015,
+        "grade":"A"
+    },
+    {
+        "dept": "CS",
+        "num": 510,
+        "title": "Network Security",
+        "term":"Winter",
+        "year":2016
+    },
+    {
+        "dept": "CS",
+        "num": 572
+    },
+    {
+        "dept": "CS",
+        "num": 592
+    },
+    {
+        "dept": "CS",
+        "num": 584
     }
 ]

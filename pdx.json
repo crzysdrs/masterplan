@@ -2,7 +2,7 @@
     "required_credits": 45,
     "tracks":[
         {
-            "name":"base",
+            "name":"core",
             "req":[
                 {"dept":"CS", "num":581},
                 {"dept":"CS", "num":558},

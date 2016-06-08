@@ -89,14 +89,14 @@
     },
     {
         "dept": "CS",
-        "num": 572
+        "num": 584,
+        "term":"Spring",
+        "year":2016
     },
     {
         "dept": "CS",
-        "num": 592
-    },
-    {
-        "dept": "CS",
-        "num": 584
+        "num":506,
+        "term":"Summer",
+        "year":2016
     }
 ]

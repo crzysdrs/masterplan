@@ -796,6 +796,13 @@
             "num": 669,
             "title": "Scholarship Skills",
             "credits": 3
+        },
+        {
+            "dept": "CS",
+            "num": 506,
+            "title": "Special Project",
+            "credits": 6
         }
+
     ]
 }
